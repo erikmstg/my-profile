@@ -5,6 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+        <link rel="shortcut icon" href="aces.ico" type="image/x-icon" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
