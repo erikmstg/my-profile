@@ -4,32 +4,21 @@ import ProjectItem from "./ProjectItem";
 const ProjectsContent = () => {
   return (
     <div className="flex -mx-4 mt-20 flex-wrap">
-      <div className="md:w-6/12 w-full px-2 pb-10">
+      <div className="md:w-6/12 w-full px-4 pb-10">
         <ProjectItem
-          title="Hasten"
-          subTitle="Explorasi landing page"
-          image="/project/page1.png"
+          title="Movie app"
+          subTitle="A web application that provides information related to popular movies"
+          image="/project/movie.png"
+          link="https://github.com/erikmstg/travels"
         />
       </div>
-      <div className="md:w-6/12 w-full px-2 pb-10">
+      <div className="md:w-6/12 w-full px-4 pb-10">
         <ProjectItem
-          title="Hasten"
-          subTitle="Explorasi landing page"
-          image="/project/page2.png"
-        />
-      </div>
-      <div className="md:w-6/12 w-full px-2 pb-10">
-        <ProjectItem
-          title="Hasten"
-          subTitle="Explorasi landing page"
-          image="/project/page3.png"
-        />
-      </div>
-      <div className="md:w-6/12 w-full px-2 pb-10 md:pb-0">
-        <ProjectItem
-          title="Hasten"
-          subTitle="Explorasi landing page"
-          image="/project/page4.png"
+          border
+          title="Myth Booking"
+          subTitle="A simple hotel booking view"
+          image="/project/booking.png"
+          link="https://github.com/erikmstg/movies-sample.github.io"
         />
       </div>
     </div>
